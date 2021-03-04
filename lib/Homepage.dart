@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
+import 'package:nakshtras/Details.dart';
 
 
 class HomePage extends StatefulWidget{
@@ -37,6 +38,14 @@ class _HomePageState extends State<HomePage>{
                     fontSize: 22.0,
                   ),),
                   dense: false,
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Details(),
+                      ),
+                    );
+                  },
 
                 ),
               );
