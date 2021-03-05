@@ -3,19 +3,22 @@ import 'dart:convert';
 import 'package:nakshtras/Details.dart';
 
 
+
 class HomePage extends StatefulWidget{
+
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage>{
+  _HomePageState();
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(title: Text("Nakshatra"),),
       body: Center(
         child: FutureBuilder(builder: (context, snapshot){
-          var nxdata = json.decode(snapshot.data.toString());
+          var nxData = json.decode(snapshot.data);
 
           return new ListView.builder(
 
@@ -24,34 +27,36 @@ class _HomePageState extends State<HomePage>{
                 child: ListTile
                   (
                   leading: CircleAvatar(
-                    backgroundImage: AssetImage(nxdata[index]['avatar']),
+                    backgroundImage: AssetImage(nxData[index]['avatar']),
                     radius: 30,
                   ),
-                  title: new Text(nxdata[index]["name"], style: const TextStyle(
+                  title: new Text(nxData[index]["name"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 19.0,
                   ),),
-                  subtitle: new Text("Aim - "+nxdata[index]["aim"]),
-                  trailing: new Text(nxdata[index]["id"], style: const TextStyle(
+                  subtitle: new Text("Aim - "+nxData[index]["aim"]),
+                  trailing: new Text(nxData[index]["id"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
-                    color: Colors.black12,
+                    color: Colors.black38,
                     fontSize: 22.0,
                   ),),
                   dense: false,
                   onTap: () {
                     Navigator.push(
                       context,
+
                       MaterialPageRoute(
-                        builder: (context) => Details(),
+                        builder: (context) => Details(jsonDetails: nxData[index]),
                       ),
                     );
+                    // backgroundColor: Colors.white38;
                   },
 
                 ),
               );
 
             },
-            itemCount: nxdata == null ? 0 : nxdata.length,
+            itemCount: nxData == null ? 0 : nxData.length,
           );
         }, future: DefaultAssetBundle.of(context).loadString('assets/nxtra.json'),),
       ),
