@@ -29,7 +29,7 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(5),
+            padding: EdgeInsets.all(5.0),
             child: Text("Name - "+widget.jsonDetails['name'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,

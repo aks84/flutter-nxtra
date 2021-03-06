@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:nakshtras/Details.dart';
 
-
-
 class HomePage extends StatefulWidget{
-
   @override
   _HomePageState createState() => _HomePageState();
 }
