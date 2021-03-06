@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget{
 }
 
 class _HomePageState extends State<HomePage>{
-  _HomePageState();
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage>{
                   (
                   leading: CircleAvatar(
                     backgroundImage: AssetImage(nxData[index]['avatar']),
-                    radius: 30,
+                    radius: 40,
                   ),
                   title: new Text(nxData[index]["name"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage>{
                         builder: (context) => Details(jsonDetails: nxData[index]),
                       ),
                     );
-                    // backgroundColor: Colors.white38;
+
                   },
 
                 ),

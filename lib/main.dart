@@ -5,5 +5,6 @@ void main()=> runApp(new MaterialApp(
   theme: new ThemeData(
     primarySwatch: Colors.teal,
   ),
+  debugShowCheckedModeBanner: false,
   home: new HomePage(),
 ));
