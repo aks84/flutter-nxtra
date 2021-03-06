@@ -9,15 +9,15 @@ class Details extends StatefulWidget{
   _DetailsState createState() => _DetailsState();
 }
 
-
 class _DetailsState extends State<Details>{
 
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(title: Text(widget.jsonDetails['id']+". "+widget.jsonDetails['name']),),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      body: ListView(
+        shrinkWrap: true,
+        padding: EdgeInsets.all(5.0),
         children: <Widget>[
           Center(
             child: Container(
