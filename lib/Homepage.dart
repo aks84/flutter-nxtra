@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage>{
       appBar: AppBar(title: Text("Nakshatra"),),
       body: Center(
         child: FutureBuilder(builder: (context, snapshot){
-          var nxData = json.decode(snapshot.data);
+          var nxData = json.decode(snapshot.data.toString());
 
           return new ListView.builder(
 

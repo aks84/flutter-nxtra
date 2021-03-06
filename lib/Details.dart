@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Details extends StatefulWidget{
-  final Map<String,dynamic> jsonDetails;
+  final Map<String, dynamic> jsonDetails;
   Details({@required this.jsonDetails});
 
   @override
@@ -19,14 +19,14 @@ class _DetailsState extends State<Details>{
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-        Container(
-          margin: EdgeInsets.all(20),
-          child: Image.asset(
+          Center(
+            child: Container(
+              child: Image.asset(
                 '${widget.jsonDetails['avatar']}',
-                fit: BoxFit.cover,
-
-              ),
-        ),
+                 fit: BoxFit.cover,
+                  ),
+            ),
+          ),
 
           Container(
             padding: EdgeInsets.all(5),
