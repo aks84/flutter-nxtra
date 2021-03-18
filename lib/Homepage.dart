@@ -27,11 +27,11 @@ class _HomePageState extends State<HomePage>{
                     backgroundImage: AssetImage(nxData[index]['avatar']),
                     radius: 40,
                   ),
-                  title: new Text(nxData[index]["name"], style: const TextStyle(
+                  title: new Text(nxData[index]["nakshatra"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 19.0,
                   ),),
-                  subtitle: new Text("Aim - "+nxData[index]["aim"]),
+                  subtitle: new Text(nxData[index]['falls']+", "+nxData[index]["deity"]),
                   trailing: new Text(nxData[index]["id"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     color: Colors.black38,
