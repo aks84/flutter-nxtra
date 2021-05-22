@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:nakshtras/Details.dart';
 
+
 class HomePage extends StatefulWidget{
   @override
   _HomePageState createState() => _HomePageState();
@@ -26,17 +27,18 @@ class _HomePageState extends State<HomePage>{
 
             itemBuilder: (BuildContext context, int index){
               return Card(
+
                 child: ListTile
                   (
                   leading: CircleAvatar(
                     backgroundImage: AssetImage(nxData[index]['avatar']),
-                    radius: 40,
+
                   ),
                   title: new Text(nxData[index]["nakshatra"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 19.0,
                   ),),
-                  subtitle: new Text(nxData[index]['falls']+", "+nxData[index]["deity"]),
+                  subtitle: new Text(nxData[index]['falls']),
                   trailing: new Text(nxData[index]["id"], style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     color: Colors.black38,
@@ -55,13 +57,18 @@ class _HomePageState extends State<HomePage>{
                   },
 
                 ),
+
               );
 
             },
             itemCount: nxData == null ? 0 : nxData.length,
+
           );
+
         }, future: DefaultAssetBundle.of(context).loadString('assets/nxtra.json'),),
+
       ),
+
     );
   }
   }

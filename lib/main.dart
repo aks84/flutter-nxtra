@@ -6,5 +6,10 @@ void main()=> runApp(new MaterialApp(
     primarySwatch: Colors.brown,
   ),
   debugShowCheckedModeBanner: false,
-  home: new HomePage(),
+  home: SafeArea(
+      top: true,
+      bottom:true,
+    child:  new HomePage(),
+
+  ),
 ));

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 class Details extends StatefulWidget{
   final Map<String, dynamic> jsonDetails;
   Details({@required this.jsonDetails});
@@ -13,7 +14,7 @@ class _DetailsState extends State<Details>{
 
   @override
   Widget build(BuildContext context){
-    return Scaffold(
+    return SafeArea(child:  Scaffold(
       appBar: AppBar(title: Text(widget.jsonDetails['id']+". "+widget.jsonDetails['nakshatra']),),
       body: ListView(
         shrinkWrap: true,
@@ -62,6 +63,16 @@ class _DetailsState extends State<Details>{
             padding: EdgeInsets.all(6),
             child:
             Text("Gender : "+widget.jsonDetails['Gender'], style: const TextStyle(
+              fontWeight: FontWeight.w500,
+              fontSize: 15.0,
+            ),
+            ),
+          ),
+
+          Container(
+            padding: EdgeInsets.all(6),
+            child:
+            Text("Nadi : "+widget.jsonDetails['nadi'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -210,27 +221,27 @@ class _DetailsState extends State<Details>{
           Divider(),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Ascendant : "+widget.jsonDetails['ascendant'], style: const TextStyle(
+            Text("ASCENDANT : "+widget.jsonDetails['ascendant'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
             ),
           ),
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Sun : "+widget.jsonDetails['sun'], style: const TextStyle(
+            Text("SUN : "+widget.jsonDetails['sun'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
             ),
           ),
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Moon : "+widget.jsonDetails['moon'], style: const TextStyle(
+            Text("MOON : "+widget.jsonDetails['moon'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -238,9 +249,9 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Mercury : "+widget.jsonDetails['mercury'], style: const TextStyle(
+            Text("MERCURY : "+widget.jsonDetails['mercury'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -248,9 +259,9 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Venus : "+widget.jsonDetails['venus'], style: const TextStyle(
+            Text("VENUS : "+widget.jsonDetails['venus'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -258,9 +269,9 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Mars : "+widget.jsonDetails['mars'], style: const TextStyle(
+            Text("MARS : "+widget.jsonDetails['mars'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -268,28 +279,18 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Saturn : "+widget.jsonDetails['saturn'], style: const TextStyle(
+            Text("SATURN : "+widget.jsonDetails['saturn'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
             ),
           ),
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Jupiter : "+widget.jsonDetails['jupiter'], style: const TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 15.0,
-            ),
-            ),
-          ),
-
-          Container(
-            padding: EdgeInsets.all(6),
-            child:
-            Text("Rahu : "+widget.jsonDetails['rahu'], style: const TextStyle(
+            Text("JUPITER : "+widget.jsonDetails['jupiter'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
@@ -297,21 +298,47 @@ class _DetailsState extends State<Details>{
           ),
 
           Container(
-            padding: EdgeInsets.all(6),
+            padding: EdgeInsets.all(10.00),
             child:
-            Text("Ketu : "+widget.jsonDetails['ketu'], style: const TextStyle(
+            Text("RAHU : "+widget.jsonDetails['rahu'], style: const TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 15.0,
             ),
             ),
           ),
 
+          Container(
+            padding: EdgeInsets.all(10.00),
+            child:
+            Text("KETU : "+widget.jsonDetails['ketu'], style: const TextStyle(
+              fontWeight: FontWeight.w500,
+              fontSize: 15.0,
+            ),
+            ),
+          ),
 
+          Divider(),
+
+          Container(
+            padding: EdgeInsets.all(10.00),
+            color: Colors.brown[600],
+            child:
+            Text("", style: const TextStyle(
+              fontWeight: FontWeight.w500,
+              fontSize: 15.0,
+            ),
+            ),
+          ),
 
         ],
 
       )
+    ),
+      top: true,
+      bottom:true
     );
         }
 
   }
+
+
