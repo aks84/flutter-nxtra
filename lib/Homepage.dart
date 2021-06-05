@@ -14,10 +14,11 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context){
     return Scaffold(
 
-      appBar: AppBar(
-        leading: Icon(Icons.auto_awesome),
-        titleSpacing: 0,
-        title: Text("Nakshatra"),),
+      // appBar: AppBar(
+      //   leading: Icon(Icons.auto_awesome),
+      //   titleSpacing: 0,
+      //   title: Text("Nakshatra"),
+      // ),
 
       body: Center(
         child: FutureBuilder(builder: (context, snapshot){
