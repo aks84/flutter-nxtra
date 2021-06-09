@@ -24,7 +24,7 @@ class Nxtra extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Text(nxt.planet, style: TextStyle( fontSize: 25,)),
+                      Text(nxt.planet + "\n", style: TextStyle( fontSize: 25,)),
                       Text('✨ ' + nxt.no1 + ' - ' + nxt.nxtra1 + ', Deity: ' + nxt.deity1 + "\n", style: TextStyle( fontSize: 18,)),
                       Text('✨ ' + nxt.no2 + ' - '  + nxt.nxtra2 + ', Deity: ' + nxt.deity2 + "\n", style: TextStyle( fontSize: 18,)),
                       Text('✨ ' + nxt.no3 + ' - '  + nxt.nxtra3 + ', Deity: ' + nxt.deity3 + "\n", style: TextStyle( fontSize: 18,)),

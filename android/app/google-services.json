@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385597973380",
+    "project_id": "nakshatra-e4b42",
+    "storage_bucket": "nakshatra-e4b42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385597973380:android:08017e3a5d012c0bdc33d1",
+        "android_client_info": {
+          "package_name": "com.tubemint.nakshtras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385597973380-57lngjpglesr18t0bggocsgih1cr2lp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvCwBwmS0YgoXHQEkorGizqLDrS_Zo80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385597973380-57lngjpglesr18t0bggocsgih1cr2lp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nakshtras/Homepage.dart';
 import 'package:nakshtras/DeityPlanet.dart';
+import 'package:nakshtras/HousesPage.dart';
+import 'package:nakshtras/PlanetPage.dart';
+import 'package:nakshtras/DeityPage.dart';
+import 'package:nakshtras/ZodiacPage.dart';
 
 
 
@@ -47,12 +51,65 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text('By Planet', style: TextStyle(fontSize: 20),),
+              title: Text('Nakshatras by Planet', style: TextStyle(fontSize: 20),),
               onTap: () {
                 // Update the state of the app
                 Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => Nxtra()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+
+            ListTile(
+              title: Text('Deities', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => DeityView()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+
+            ListTile(
+              title: Text('Planets', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => PlanetView()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+
+            ListTile(
+              title: Text('Zodiac Signs', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ZodiacView()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+
+
+            ListTile(
+              title: Text('Bhavas/Houses', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Housse()));
                 // Then close the drawer
 
               },

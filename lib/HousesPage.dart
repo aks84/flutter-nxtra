@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nakshtras/model/HousesPage.dart';
+import 'package:nakshtras/model/Houses.dart';
 
 
-class Nxtra extends StatelessWidget {
+class Housse extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,7 +11,7 @@ class Nxtra extends StatelessWidget {
         ),
         body: ListView.builder(
             padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
-            itemCount: nxtraList.length,
+            itemCount: houseList.length,
             itemBuilder: (context, index) {
               House hs = houseList[index];
               return Center(
@@ -19,14 +19,14 @@ class Nxtra extends StatelessWidget {
                   margin: const EdgeInsets.all(10.0),
                   padding: const EdgeInsets.all(10.0),
                   color: Colors.lightGreenAccent,
-                  width: 250,
+                  width: 350,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Text(nxt.planet, style: TextStyle( fontSize: 25,)),
-                      Text(nxt.name + "\n", style: TextStyle( fontSize: 18,)),
-                      Text(nxt.about + "\n", style: TextStyle( fontSize: 18,)),
+
+                      Text(hs.name + "\n", style: TextStyle( fontSize: 25,)),
+                      Text(hs.about + "\n", style: TextStyle( fontSize: 18,)),
                     ],
 
 

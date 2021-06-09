@@ -7,7 +7,7 @@ class ZodiacView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Planets"),
+          title: Text("Zodiac Signs"),
         ),
         body: ListView.builder(
             padding: EdgeInsets.only(bottom: 20.0, top: 20.0),

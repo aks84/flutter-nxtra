@@ -7,7 +7,7 @@ class DeityView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Planets"),
+          title: Text("Deities"),
         ),
         body: ListView.builder(
             padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
@@ -24,9 +24,41 @@ class DeityView extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
+                      Text.rich(
+                          TextSpan(
+                              children: [
+                                TextSpan(text: dty.name + "\n\n",
+                                  style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold,),
+                                ),
 
-                      Text(dty.name + "\n", style: TextStyle( fontSize: 25,)),
-                      Text(dty.about + "\n", style: TextStyle( fontSize: 18,)),
+                                TextSpan(text: "Ruled Nakshatra: ",
+                                  style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold,),
+                                ),
+
+                                TextSpan(text: dty.nkshtra + "\n",
+                                  style: TextStyle(fontSize: 18.0, ),
+                                ),
+
+                                TextSpan(text: "Planet Lord: ",
+                                  style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold,),
+                                ),
+
+                                TextSpan(text: dty.planet + "\n\n",
+                                  style: TextStyle(fontSize: 18.0, ),
+                                ),
+
+                                TextSpan(text: "About Deity: ",
+                                  style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold,),
+                                ),
+
+                                TextSpan(text: dty.about + "\n",
+                                  style: TextStyle(fontSize: 18.0, ),
+                                ),
+
+                              ],
+
+
+                      ),),
                     ],
 
 

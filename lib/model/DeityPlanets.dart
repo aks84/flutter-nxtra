@@ -29,7 +29,7 @@ class Nakshtra{
 List<Nakshtra> nxtraList = [
 
   Nakshtra(
-      planet: "Sun",
+      planet: "Sun | Surya",
       no1: "3",
       nxtra1: "Kritika",
       deity1: "Agni",
@@ -42,7 +42,7 @@ List<Nakshtra> nxtraList = [
   ),
 
   Nakshtra(
-      planet: "Moon",
+      planet: "Moon | Chandra",
       no1: "4",
       nxtra1: "Rohini",
       deity1: "Prajapati",
@@ -55,7 +55,7 @@ List<Nakshtra> nxtraList = [
   ),
 
   Nakshtra(
-      planet: "Mercury",
+      planet: "Mercury | Buddha",
       no1: "9",
       nxtra1: "Ashlesha",
       deity1: "Sarpa",
@@ -68,7 +68,7 @@ List<Nakshtra> nxtraList = [
   ),
 
  Nakshtra(
-      planet: "Venus",
+      planet: "Venus | Shukra",
       no1: "2",
       nxtra1: "Bharini",
       deity1: "Yama",
@@ -81,7 +81,7 @@ List<Nakshtra> nxtraList = [
   ),
 
   Nakshtra(
-      planet: "Mars",
+      planet: "Mars | Mangal",
       no1: "5",
       nxtra1: "Mrigshira",
       deity1: "Soma",
@@ -94,7 +94,7 @@ List<Nakshtra> nxtraList = [
   ),
   
   Nakshtra(
-      planet: "Jupiter",
+      planet: "Jupiter | Guru",
       no1: "7",
       nxtra1: "Punarvasu",
       deity1: "Aditi",
@@ -107,7 +107,7 @@ List<Nakshtra> nxtraList = [
   ),
 
 Nakshtra(
-      planet: "Saturn",
+      planet: "Saturn | Shani",
       no1: "8",
       nxtra1: "Pushya",
       deity1: "Brispati",
@@ -120,7 +120,7 @@ Nakshtra(
   ),
 
   Nakshtra(
-      planet: "Rahu",
+      planet: "Rahu | N. Node",
       no1: "6",
       nxtra1: "Ardra",
       deity1: "Rudra",
@@ -133,7 +133,7 @@ Nakshtra(
   ),
 
   Nakshtra(
-      planet: "Ketu",
+      planet: "Ketu | S. Node",
       no1: "1",
       nxtra1: "Ashvini",
       deity1: "Ashvinis",
