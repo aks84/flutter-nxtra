@@ -3,23 +3,25 @@ import 'dart:convert';
 import 'package:nakshtras/Details.dart';
 
 
+
+
+
 class HomePage extends StatefulWidget{
+
+
+
   @override
   _HomePageState createState() => _HomePageState();
+
 }
 
 class _HomePageState extends State<HomePage>{
 
+
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
-
-      // appBar: AppBar(
-      //   leading: Icon(Icons.auto_awesome),
-      //   titleSpacing: 0,
-      //   title: Text("Nakshatra"),
-      // ),
-
       body: Center(
         child: FutureBuilder(builder: (context, snapshot){
           var nxData = json.decode(snapshot.data.toString());
@@ -56,6 +58,7 @@ class _HomePageState extends State<HomePage>{
                     );
 
                   },
+
 
                 ),
 

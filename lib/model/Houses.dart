@@ -82,7 +82,7 @@ List<House> houseList = [
 
   House(
       name: "12. Vyaya",
-      about: "Expenses, Sleep (and convalescence), Sexual pleasures, Spirituality, Travel & Pilgrimage, Secret Enemies, Imprisonment, Hospitals, Asylums, Liberation, loss foreign residency, feet",
+      about: "Expenses, Sleep (and convalescence), Sexual pleasures, Spirituality, Travel & Pilgrimage, Secret Enemies, Imprisonment, Hospitals, Asylums, Liberation, loss, foreign residency, feet",
      
   ),
 

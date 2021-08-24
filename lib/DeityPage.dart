@@ -2,12 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:nakshtras/model/Deities.dart';
 
 
+
+
 class DeityView extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: Text("Deities"),
+          title: Text("Nakshatra Deities"),
         ),
         body: ListView.builder(
             padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
@@ -16,10 +20,10 @@ class DeityView extends StatelessWidget {
               Deity dty = deityList[index];
               return Center(
                 child: Container(
-                  margin: const EdgeInsets.all(10.0),
-                  padding: const EdgeInsets.all(10.0),
+                  margin: const EdgeInsets.all(15.0),
+                  padding: const EdgeInsets.all(15.0),
                   color: Colors.lightGreenAccent,
-                  width: 350,
+                  width: 400,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
@@ -59,11 +63,13 @@ class DeityView extends StatelessWidget {
 
 
                       ),),
+
                     ],
 
-
                   ),
+
                 ),
+
               );
             }));
 

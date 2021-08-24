@@ -5,10 +5,11 @@ import 'package:nakshtras/HousesPage.dart';
 import 'package:nakshtras/PlanetPage.dart';
 import 'package:nakshtras/DeityPage.dart';
 import 'package:nakshtras/ZodiacPage.dart';
+import 'package:launch_review/launch_review.dart';
 
-
-
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   final appTitle = 'Nakshatra';
@@ -26,11 +27,10 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class MyHomePage extends StatelessWidget {
   final String title;
 
-  MyHomePage({Key key,  this.title}) : super(key: key);
+  MyHomePage({Key key, this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -44,83 +44,94 @@ class MyHomePage extends StatelessWidget {
             Container(
               height: 120.0,
               child: DrawerHeader(
-                child: Text('Nakshatra', style: TextStyle(fontSize: 45, color: Colors.white),),
+                child: Text(
+                  'Nakshatra',
+                  style: TextStyle(fontSize: 45, color: Colors.white),
+                ),
                 decoration: BoxDecoration(
                   color: Colors.brown,
                 ),
               ),
             ),
             ListTile(
-              title: Text('Nakshatras by Planet', style: TextStyle(fontSize: 20),),
+              title: Text(
+                'Nakshatras by Planet',
+                style: TextStyle(fontSize: 20),
+              ),
               onTap: () {
                 // Update the state of the app
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Nxtra()));
+                    context, MaterialPageRoute(builder: (context) => Nxtra()));
                 // Then close the drawer
-
               },
             ),
             Divider(),
-
             ListTile(
-              title: Text('Deities', style: TextStyle(fontSize: 20),),
+              title: Text(
+                'Deities',
+                style: TextStyle(fontSize: 20),
+              ),
               onTap: () {
                 // Update the state of the app
-                Navigator.push(
-                    context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => DeityView()));
                 // Then close the drawer
-
               },
             ),
             Divider(),
-
             ListTile(
-              title: Text('Planets', style: TextStyle(fontSize: 20),),
+              title: Text(
+                'Grahas (Planets)',
+                style: TextStyle(fontSize: 20),
+              ),
               onTap: () {
                 // Update the state of the app
-                Navigator.push(
-                    context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => PlanetView()));
                 // Then close the drawer
-
               },
             ),
             Divider(),
-
             ListTile(
-              title: Text('Zodiac Signs', style: TextStyle(fontSize: 20),),
+              title: Text(
+                'Rashis (Signs)',
+                style: TextStyle(fontSize: 20),
+              ),
               onTap: () {
                 // Update the state of the app
-                Navigator.push(
-                    context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => ZodiacView()));
                 // Then close the drawer
-
               },
             ),
             Divider(),
-
-
             ListTile(
-              title: Text('Bhavas/Houses', style: TextStyle(fontSize: 20),),
+              title: Text(
+                'Bhavas (Houses)',
+                style: TextStyle(fontSize: 20),
+              ),
               onTap: () {
                 // Update the state of the app
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Housse()));
+                    context, MaterialPageRoute(builder: (context) => Housse()));
                 // Then close the drawer
-
               },
             ),
+            Divider(),
+            ListTile(
+                title: Text(
+                  'Leave Review',
+                  style: TextStyle(fontSize: 15),
+                ),
+                onTap: () {
+                  LaunchReview.launch(
+                    androidAppId: "com.tubemint.nakshtras",
+                  );
+                }),
             Divider(),
           ],
         ),
-
       ),
-
     );
-
   }
 }

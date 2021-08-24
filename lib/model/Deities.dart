@@ -22,7 +22,7 @@ List<Deity> deityList = [
       name: "1. Ashawani Kumara",
       nkshtra: "Ashvini",
       planet: "Ketu",
-      about: "Nature of Native, Appearance, Health, Character, Purpose of Life, behavior, birth, limbs, head.",
+      about: "Twin sons of Surya and Sanjana, Awhwinis were the first physicians, doctors to humanity as well as the gods.",
      
   ),
 
@@ -30,7 +30,7 @@ List<Deity> deityList = [
       name: "2. Yama",
       nkshtra: "Bharini",
       planet: "Venus",
-      about: "Wealth, Family, Domestic Comforts, Early Education, Inheritance, Speech, moveable assets",
+      about: "Yama (Surya's son) is the Hindu god of death, king of ancestors, and final judge on the destination of souls.",
      
   ),
 
@@ -38,7 +38,7 @@ List<Deity> deityList = [
       name: "3. Agni",
       nkshtra: "Kritika",
       planet: "Sun",
-      about: "Younger Brothers and Sisters, Communication (Talking, Writing, Business Documents), Intelligence, fine arts Short Journeys, great prowess (physical and mental), hands, arms, shoulders",
+      about: "One of the most important of the Vedic gods. He is the god of fire and the acceptor of sacrifices.",
      
   ),
 
@@ -46,7 +46,7 @@ List<Deity> deityList = [
       name: "4. Brahma",
       nkshtra: "Rohini",
       planet: "Moon",
-      about: "Mother, Emotions, Education, Home, Property and Land, Surrounding in Old Age, vehicles, the chest",
+      about: "Brahma is the Hindu creator god and teacher of Vedas, who created the universe and all beings.",
      
   ),
 
@@ -54,7 +54,7 @@ List<Deity> deityList = [
       name: "5. Soma/Chandra",
       nkshtra: "Mrigshira",
       planet: "Mars",
-      about: "Children, Lovers, Recreation Devotion, Speculation and Gambling, the belly, accumulated karma",
+      about: "Soma is god of Moon, thus associated with night. Nourtures and protects nectar(amrita), plants, and life on the Earth.",
      
   ),
 
@@ -62,7 +62,7 @@ List<Deity> deityList = [
       name: "6. Rudra",
       nkshtra: "Ardra",
       planet: "Rahu",
-      about: "Diseases, Maternal uncle and aunt, Litigation, Servants, Mental Worries, Enemies, Foreigners, small intestine,",
+      about: "The Vedic god of storms and tempests. Destructive avatara of Shiva, associated with color red.",
      
   ),
 
@@ -70,7 +70,7 @@ List<Deity> deityList = [
       name: "7. Aditi",
       nkshtra: "Punarvasu",
       planet: "Jupiter",
-      about: "Spouse, Business Partner, Death, Respect, passion, groin",
+      about: "Aditi is a goddess and the mother of the Adityas: 12 major devas. Also, goddess of space, earth, sky, consciousness, past, future, & firtility.",
      
   ),
 
@@ -78,7 +78,7 @@ List<Deity> deityList = [
       name: "8. Brihaspati",
       nkshtra: "Pushya",
       planet: "Saturn",
-      about: "Death & Longevity, Obstacles, Suffering, Sexual organs and sexual attractiveness, Occult, Dowry, Inheritance, Imprisonment, Excretory organs, accidents",
+      about: "The guru of gods, the master of sacred wisdon & speach, charms, hymns, and rites.",
      
   ),
 
@@ -86,7 +86,7 @@ List<Deity> deityList = [
       name: "9. Sarpas | Nagas",
       nkshtra: "Ashlesa",
       planet: "Mercury",
-      about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+      about: "Nagas are half human and half cobra. Like humans, Nagas show wisdom and concern for others but also cowardice and injustice.",
      
   ),
 
@@ -94,7 +94,7 @@ List<Deity> deityList = [
     name: "10. Pitras",
     nkshtra: "Magha",
     planet: "Ketu",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Are the spirits of the departed ancestors in Hinduism, and worshiped annually to thank them for upbringing us and to have grace upon us.",
 
   ),
 
@@ -102,7 +102,7 @@ List<Deity> deityList = [
     name: "11. Bhagya",
     nkshtra: "Purva Phalguni",
     planet: "Venus",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "A vedic god of fortune, also a term for lord, patron, wealth, oppornuty and prosperity. He is an Aditya.",
 
   ),
 
@@ -110,7 +110,7 @@ List<Deity> deityList = [
     name: "12. Aryaman",
     nkshtra: "Uttara Phalguni",
     planet: "Sun",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Is one of ealiest Hindu deity, 3rd son of Aditi. He is god of customs and protector of mares and milky ways.",
 
   ),
 
@@ -118,7 +118,7 @@ List<Deity> deityList = [
     name: "13. Savita",
     nkshtra: "Hasta",
     planet: "Moon",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "One of Adityas, Savita is the cosmic power of God which provides energy to all animate and inanimate systems of the cosmos. In Sun and other stars for instance.",
 
   ),
 
@@ -126,7 +126,7 @@ List<Deity> deityList = [
     name: "14. Vishwakarma",
     nkshtra: "Chitra",
     planet: "Mars",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Vishwakarma crafted all of the chariots of the gods and weapons including the Vajra of the god Indra. Surya was marrited to his daughter.",
 
   ),
 
@@ -141,7 +141,7 @@ List<Deity> deityList = [
     name: "16. Ingra & Agni",
     nkshtra: "Vishakha",
     planet: "Jupiter",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Both are often presented as twin brothers. Indra is the king of heaven, associated with lightning, thunder, storms, and river and Agni is god of fire.",
 
   ),
 
@@ -149,7 +149,7 @@ List<Deity> deityList = [
     name: "17. Mitra",
     nkshtra: "Anuradha",
     planet: "Saturn",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "One of Adityas, associated with the  light of dawn and the morning sun.",
 
   ),
 
@@ -157,7 +157,7 @@ List<Deity> deityList = [
     name: "18. Indra",
     nkshtra: "Jyeshtha",
     planet: "Mercury",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Indra is the king of heaven, associated with lightning, thunder, storms, and river",
 
   ),
 
@@ -165,7 +165,7 @@ List<Deity> deityList = [
     name: "19. Nirrti",
     nkshtra: "Moola",
     planet: "Ketu",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Nirrti is Hindu destructive Goddess of darkness, whose name means destruction. She is associated with pain, sorrow, and misfortune.",
 
   ),
 
@@ -173,15 +173,15 @@ List<Deity> deityList = [
     name: "20. Apah",
     nkshtra: "Purva Ashadha",
     planet: "Venus",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "The Goddesses of water, they cleanse and purify devotees. They bless them with boons. They also grant vitality, immortality and strength",
 
   ),
 
   Deity(
-    name: "21. Vishwa Devas",
+    name: "21. Vishwadevas",
     nkshtra: "Uttara Ashadha",
     planet: "Sun",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Are the various Vedic gods taken together as a whole. Only once Krishna revealed the glimpse of Vishwadevas to Arjuna known as Rirata rupa, also known as Vishvaroopa.",
 
   ),
 
@@ -189,15 +189,15 @@ List<Deity> deityList = [
     name: "22. Vishnu",
     nkshtra: "Shravana",
     planet: "Moon",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Vishnu is known as 'The Preserver' within the Trimurti. Vishnu is the supreme being who creates, protects and transforms the universe.",
 
   ),
 
   Deity(
-    name: "23. Asht Vasus",
+    name: "23. Ashta Vasus",
     nkshtra: "Dhanishta",
     planet: "Mars",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Ashta Vasus are attendant deities of Indra, and later Vishnu. They are described in the Ramayana as the children of Kasyapa and Aditi and in the Mahabharata as the sons of Manu or Brahma Prajapati.",
 
   ),
 
@@ -205,15 +205,15 @@ List<Deity> deityList = [
     name: "24. Varuna",
     nkshtra: "Shatabhisha",
     planet: "Rahu",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "One of Adityas, God of the Oceans, water, and sky, his sway extends to the underworld. Worshipped every year before the season of rainfall begins.",
 
   ),
 
   Deity(
-    name: "25. Ekapada",
+    name: "25. Aja Ekapada",
     nkshtra: "Purva Bhadrapada",
     planet: "Jupiter",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "Ekapada is a form of Shiva (rudra), also known as Aja Ekapada or Ajaikapada or simply Ekpada. Ekapada represents the Axis Mundi (cosmic pillar of the universe) and portrays Shiva as the Supreme Lord, from whom Vishnu and Brahma originate. Ekapada denotes the unborn, transcendent cosmic energy. The goat is a docile, domesticated animal which gives milk and takes almost nothing for its own sustenance.",
 
   ),
 
@@ -221,7 +221,7 @@ List<Deity> deityList = [
     name: "26. Ahirbudhnya",
     nkshtra: "Uttara Bhadrapada",
     planet: "Saturn",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "One of the Rudras, the serpent of the bottom is an atmospheric god 'the one, who carries the burden of the world'. He rules unseen, hidden parts of our awareness.",
 
   ),
 
@@ -229,7 +229,7 @@ List<Deity> deityList = [
     name: "27. Pushan",
     nkshtra: "Revati",
     planet: "Mercury",
-    about: "Father, Luck, Higher learning, Philosophy & Religion, Mentor or Guru, Prosperity, Travel, deeds of virtue",
+    about: "One of Adityas, a god of meeting, Pushan is responsible for marriages, journeys, roads, and the feeding of cattle.",
 
   ),
 

@@ -16,10 +16,10 @@ class Nxtra extends StatelessWidget {
               Nakshtra nxt = nxtraList[index];
               return Center(
                 child: Container(
-                  margin: const EdgeInsets.all(10.0),
-                  padding: const EdgeInsets.all(10.0),
+                  margin: const EdgeInsets.all(15.0),
+                  padding: const EdgeInsets.all(15.0),
                   color: Colors.lightGreenAccent,
-                  width: 350,
+                  width: 400,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,

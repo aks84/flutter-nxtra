@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "385597973380",
-    "project_id": "nakshatra-e4b42",
-    "storage_bucket": "nakshatra-e4b42.appspot.com"
+    "project_number": "510287246026",
+    "project_id": "nakshatras",
+    "storage_bucket": "nakshatras.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:385597973380:android:08017e3a5d012c0bdc33d1",
+        "mobilesdk_app_id": "1:510287246026:android:f9e9e4854afe8b98583a33",
         "android_client_info": {
           "package_name": "com.tubemint.nakshtras"
         }
       },
       "oauth_client": [
         {
-          "client_id": "385597973380-57lngjpglesr18t0bggocsgih1cr2lp6.apps.googleusercontent.com",
+          "client_id": "510287246026-5ffkss8l7a0svm1afm2l5bmj7067e5dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tubemint.nakshtras",
+            "certificate_hash": "a4d90ae6b8f74ee744ac7dea2435de0e0a5d930c"
+          }
+        },
+        {
+          "client_id": "510287246026-5qh2t9nrrn9f3fus6jp1tguc040aj83c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCJvCwBwmS0YgoXHQEkorGizqLDrS_Zo80"
+          "current_key": "AIzaSyDBJsgq__7xfqvkVzAgLVkuOK6eylDT3lk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "385597973380-57lngjpglesr18t0bggocsgih1cr2lp6.apps.googleusercontent.com",
+              "client_id": "510287246026-5qh2t9nrrn9f3fus6jp1tguc040aj83c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
