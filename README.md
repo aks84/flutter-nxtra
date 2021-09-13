@@ -4,4 +4,5 @@ Learn all about 27 nakshtras to improve your astrology skill
 
 ## Flutter Developer
 
-- [Hire Flutter Developer for Android and iOS ](https://fvrr.co/30dI1vr)
+- [Learn more about displaying ads on your flutter app](https://tubemint.com/add-facebook-audience-network-banner-ad-to-flutter-app/)
+- Displaying ads to your flutter is easy with Google Mobile Ads flutter plugin
